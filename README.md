@@ -1,5 +1,7 @@
 # nearata.com
 
+> My minimal and clean personal website
+
 ![Website screenshot](Website.png)
 
 ## License
