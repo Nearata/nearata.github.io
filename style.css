@@ -34,6 +34,26 @@ h2 {
     margin: 5px 0;
 }
 
+#fa-credits {
+    position: fixed;
+    bottom: 4px;
+    left: 50%;
+    font-size: .80rem;
+    transform: translateX(-50%);
+}
+
+#fa-credits > a {
+    color: inherit;
+    font-weight: 600;
+    text-decoration: none;
+    border-bottom: 2px solid rgba(255, 255, 255, .125);
+    transition: all .25s ease;
+}
+
+#fa-credits a:hover {
+    border-color: hsl(0, 0%, 67%);
+}
+
 #resume {
     display: none;
     color: hsl(0, 0%, 96%);
@@ -55,59 +75,50 @@ h2 {
 }
 
 #socials > .icon {
-    font-size: 1.85rem;
-    color: hsl(0, 0%, 100%);
-    display: inline-block;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1.75rem;
+    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.25);
+    transition: all .25s ease;
+    width: 50px;
+    height: 50px;
+}
+
+#socials > .icon:hover {
+    transform: translateY(-4px);
+}
+
+#socials > .icon > img {
+    width: 36px;
+    height: 36px;
 }
 
 #socials > .icon:not(:last-child) {
     margin-right: .5rem;
 }
 
-#socials > .icon,
-#socials > .icon > i,
-#socials > .icon > img {
-    transition: all .25s ease;
-}
-
-#socials > .icon > i,
-#socials > .icon > img {
-    font-size: 2rem;
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-    line-height: 50px;
-    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.25);
-    vertical-align: top;
-}
-
-#socials > .icon:hover > i,
-#socials > .icon:hover > img {
-    transform: translateY(-4px);
-}
-
-#socials > .icon > .fa-github {
+#socials > .icon.github {
     background-color: hsl(214, 50%, 50%);
 }
 
-#socials > .icon > .fa-twitter {
+#socials > .icon.twitter {
     background-color: hsl(194, 100%, 56%);
 }
 
-#socials > .icon > .fa-reddit {
+#socials > .icon.reddit {
     background-color: hsl(20, 100%, 50%);
 }
 
-#socials > .icon > .fa-youtube {
+#socials > .icon.youtube {
     background-color: hsl(0, 100%, 50%);
 }
 
-#socials > .icon > .fa-code {
+#socials > .icon.codecademy {
     background-color: hsl(248.3, 53.5%, 57.8%);
 }
 
-#socials > .icon.anilist > img {
+#socials > .icon.anilist {
     background-color: #1f2631;
 }
 
