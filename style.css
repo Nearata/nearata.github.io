@@ -65,14 +65,14 @@ h2 {
     margin-right: .5rem;
 }
 
-#socials .icon,
-#socials .icon > i,
-#socials .icon > img {
+#socials > .icon,
+#socials > .icon > i,
+#socials > .icon > img {
     transition: all .25s ease;
 }
 
-#socials .icon > i,
-#socials .icon > img {
+#socials > .icon > i,
+#socials > .icon > img {
     font-size: 2rem;
     border-radius: 50%;
     width: 50px;
@@ -82,32 +82,32 @@ h2 {
     vertical-align: top;
 }
 
-#socials .icon:hover > i,
-#socials .icon:hover > img {
+#socials > .icon:hover > i,
+#socials > .icon:hover > img {
     transform: translateY(-4px);
 }
 
-#socials .icon > .fa-github {
+#socials > .icon > .fa-github {
     background-color: hsl(214, 50%, 50%);
 }
 
-#socials .icon > .fa-twitter {
+#socials > .icon > .fa-twitter {
     background-color: hsl(194, 100%, 56%);
 }
 
-#socials .icon > .fa-reddit {
+#socials > .icon > .fa-reddit {
     background-color: hsl(20, 100%, 50%);
 }
 
-#socials .icon > .fa-youtube {
+#socials > .icon > .fa-youtube {
     background-color: hsl(0, 100%, 50%);
 }
 
-#socials .icon > .fa-code {
+#socials > .icon > .fa-code {
     background-color: hsl(248.3, 53.5%, 57.8%);
 }
 
-#socials .icon.anilist > img {
+#socials > .icon.anilist > img {
     background-color: #1f2631;
 }
 
