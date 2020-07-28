@@ -88,11 +88,6 @@ h2 {
     transform: translateY(-4px);
 }
 
-#socials > .icon > img {
-    width: 36px;
-    height: 36px;
-}
-
 #socials > .icon:not(:last-child) {
     margin-right: .5rem;
 }
@@ -121,7 +116,12 @@ h2 {
     background-color: #1f2631;
 }
 
-.eff-logo {
+#socials > .icon > img {
+    width: 36px;
+    height: 36px;
+}
+
+#eff-logo {
     width: 80px;
     height: 80px;
 }
