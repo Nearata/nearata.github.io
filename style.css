@@ -1,127 +1,52 @@
-html,
-body,
-main {
-    height: 100%;
-}
-
 body {
-    font-family: "Poppins", sans-serif;
-    color: hsl(0, 0%, 96%);
-    background-color: hsl(0, 0%, 13%);
+    font-family: "Roboto", sans-serif;
     line-height: 1.5rem;
+    font-size: 1.25rem;
+    color: #1c1f22;
+    background-color: #f9f9f9;
+    font-weight: 300;
 }
 
-main {
-    display: flex;
+.main {
+    margin: 2rem;
+    display: grid;
     justify-content: center;
-    align-items: center;
-    flex-flow: column;
     text-align: center;
+    grid-gap: 1rem;
 }
 
-h1 {
-    color: hsl(0, 0%, 96%);
-    font-size: 3.75rem;
-    line-height: 4.75rem;
+.h1,
+.h2 {
+    font-weight: 500;
     margin: 0;
 }
 
-h2 {
-    color: hsl(0, 0%, 67%);
-    font-size: 1.25rem;
-    font-weight: 300;
-    margin: 5px 0;
+.h1 {
+    font-size: 2rem;
+    margin-bottom: .5rem;
 }
 
-#fa-credits {
-    position: fixed;
-    bottom: 4px;
-    left: 50%;
-    font-size: .80rem;
-    transform: translateX(-50%);
+.h2 {
+    font-size: 1.5rem;
 }
 
-#fa-credits > a {
-    color: inherit;
-    font-weight: 600;
+.socials__item {
     text-decoration: none;
-    border-bottom: 2px solid rgba(255, 255, 255, .125);
-    transition: all .25s ease;
+    font-weight: 500;
+    width: 16rem;
+    display: block;
+    border: .2rem solid #eee;
+    border-radius: .25rem;
+    padding: .5rem 0;
+    color: hsl(210deg 10% 25%);
+    box-shadow: 0 0 0.2rem 0.25rem rgb(0 0 0 / 1%);
+    text-transform: uppercase;
 }
 
-#fa-credits a:hover {
-    border-color: hsl(0, 0%, 67%);
+.socials__item:not(:last-child) {
+    margin-bottom: .5rem;
 }
 
-#resume {
-    display: none;
-    color: hsl(0, 0%, 96%);
-    text-decoration: none;
-    border: 2px solid hsl(0, 0%, 96%);
-    padding: .75rem 2rem;
-    outline: 0;
-    line-height: 1.2;
-    border-radius: 2rem;
-    margin-top: .5rem;
-}
-
-/* ----- SOCIALS ----- */
-
-#socials {
-    display: flex;
-    justify-content: center;
-    margin: 1.25rem 0;
-}
-
-#socials > .icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 1.75rem;
-    box-shadow: 0 1px 2px hsla(0, 0%, 0%, 0.25);
-    transition: all .25s ease;
-    width: 50px;
-    height: 50px;
-}
-
-#socials > .icon:hover {
-    transform: translateY(-4px);
-}
-
-#socials > .icon:not(:last-child) {
-    margin-right: .5rem;
-}
-
-#socials > .icon.github {
-    background-color: hsl(214, 50%, 50%);
-}
-
-#socials > .icon.twitter {
-    background-color: hsl(194, 100%, 56%);
-}
-
-#socials > .icon.reddit {
-    background-color: hsl(20, 100%, 50%);
-}
-
-#socials > .icon.youtube {
-    background-color: hsl(0, 100%, 50%);
-}
-
-#socials > .icon.codecademy {
-    background-color: hsl(248.3, 53.5%, 57.8%);
-}
-
-#socials > .icon.anilist {
-    background-color: #1f2631;
-}
-
-#socials > .icon > img {
-    width: 36px;
-    height: 36px;
-}
-
-#eff-logo {
-    width: 80px;
-    height: 80px;
+.eff-logo {
+    width: 100px;
 }
