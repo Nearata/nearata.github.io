@@ -12,7 +12,7 @@ body {
     display: grid;
     justify-content: center;
     text-align: center;
-    grid-gap: 1rem;
+    gap: 1rem;
 }
 
 .h1,
