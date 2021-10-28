@@ -1,4 +1,0 @@
-# nearata.com
-
-> Personal website
-
