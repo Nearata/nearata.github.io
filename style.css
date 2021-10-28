@@ -12,18 +12,16 @@ body {
     display: grid;
     justify-content: center;
     text-align: center;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
-.h1,
-.h2 {
+.h1 {
     font-weight: 500;
     margin: 0;
 }
 
 .h1 {
     font-size: 2rem;
-    margin-bottom: .5rem;
 }
 
 .h2 {
@@ -35,12 +33,16 @@ body {
     font-weight: 500;
     width: 16rem;
     display: block;
-    border: .2rem solid #eee;
-    border-radius: .25rem;
+    border: .2rem solid #8b1017;
     padding: .5rem 0;
-    color: hsl(210deg 10% 25%);
-    box-shadow: 0 0 0.2rem 0.25rem rgb(0 0 0 / 1%);
+    color: #f9f9f9;
     text-transform: uppercase;
+    background-color: #8b1017;
+}
+
+.socials__item:hover {
+    background-color: #f9f9f9;
+    color: #8b1017;
 }
 
 .socials__item:not(:last-child) {
